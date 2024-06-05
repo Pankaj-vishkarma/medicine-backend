@@ -8,7 +8,7 @@ const cors=require('cors')
 database()
 
 app.use(cors({
-    origin:['http://localhost:5173'],
+    origin:['https://search-dava.netlify.app'],
     methods:['GET','POST'],
     credentials:true
 }))
